@@ -85,15 +85,22 @@
      /* Tablets */
 @media (max-width: 768px) {
     .nav-links {
+       
         font-size: 16px; /* slightly bigger */
     }
+      .nav-links a {
+            margin-left: 14px;
+        }
 }
 
 /* Large phones */
 @media (max-width: 480px) {
     .nav-links {
-        font-size: 14px;
+        font-size: 12px;
     }
+      .nav-links a {
+            margin-left: 12px;
+        }
 }
 
 /* Very small phones */
@@ -102,6 +109,9 @@
         font-size: 12px;
         padding: 5px;
     }
+      .nav-links a {
+            margin-left: 12px;
+        }
 }
 
     </style>
