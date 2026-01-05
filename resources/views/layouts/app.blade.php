@@ -118,7 +118,7 @@ Valetta</div>
             <a href="/">Home</a>
             <a href="/menu">Menu</a>
             <a href="/location">Location</a>
-            <a href="/book">Book a Table</a>
+            <a href="/book">Contact</a>
         </div>
     </nav>
 

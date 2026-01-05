@@ -377,7 +377,7 @@ body{
   }
 
   .split-image img {
-    height: 200px;
+    height: 250px;
   }
 
   .split-content h2 {
