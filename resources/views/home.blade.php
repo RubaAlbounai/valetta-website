@@ -201,7 +201,7 @@ body{
 }
 .split-image img{
   width:100%;
-  height:700px;
+  height:800px;
   object-fit:cover;
   border-radius:20px;
   opacity:0;
@@ -329,7 +329,7 @@ body{
 
   .split-image img {
     width: 100%;
-    height: 250px; /* smaller height for phones */
+    height: 270px; /* smaller height for phones */
     border-radius: 14px;
   }
 
@@ -377,7 +377,7 @@ body{
   }
 
   .split-image img {
-    height: 250px;
+    height: 270px;
   }
 
   .split-content h2 {
