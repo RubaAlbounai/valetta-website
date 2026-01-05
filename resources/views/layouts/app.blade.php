@@ -82,11 +82,28 @@
         }
 
         /* Responsive */
-        @media (max-width: 768px) {
-            .nav-links {
-                font-size: 14px;
-            }
-        }
+     /* Tablets */
+@media (max-width: 768px) {
+    .nav-links {
+        font-size: 16px; /* slightly bigger */
+    }
+}
+
+/* Large phones */
+@media (max-width: 480px) {
+    .nav-links {
+        font-size: 14px;
+    }
+}
+
+/* Very small phones */
+@media (max-width: 360px) {
+    .nav-links {
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
     </style>
 </head>
 <body>

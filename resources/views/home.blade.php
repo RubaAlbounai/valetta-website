@@ -297,40 +297,107 @@ body{
 }
 
 /* MOBILE */
- @media(max-width:900px){
-  .split-section{
-    flex-direction:column; /* تصبح عمودية للهاتف */
-    gap:20px;
-    padding:0 20px;
-    margin:60px auto;
+ /* ===== MOBILE HERO & SPLIT SECTIONS ===== */
+@media (max-width: 768px) {
+  /* HERO */
+  .hero h1 {
+    font-size: 28px;  /* smaller but readable */
+    letter-spacing: 1px;
   }
 
-  .split-image img{
-    height:260px;
+  .hero p {
+    font-size: 14px;
   }
 
-  .split-content{
-    padding:30px 20px;
+  .btn-primary {
+    padding: 10px 20px;
+    font-size: 14px;
   }
 
-  .split-content h2{
-    font-size:20px;
+  .hero-circles {
+    bottom: 10px;
+    gap: 8px;
   }
 
-  .split-content p{
-    font-size:14px;
-    line-height:1.6;
+  /* SPLIT SECTIONS */
+  .split-section {
+    flex-direction: column;
+    gap: 20px;
+    margin: 60px auto;
+    padding: 20px;
   }
-   .split-section.dishes-background {
-    padding: 80px 20px;
+
+  .split-image img {
+    width: 100%;
+    height: 250px; /* smaller height for phones */
+    border-radius: 14px;
+  }
+
+  .split-content {
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .split-content h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .split-content p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .split-section.dishes-background {
+    padding: 60px 20px;
   }
 
   .split-section.dishes-background h2 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .split-section.dishes-background p {
-    font-size: 16px;
+    font-size: 14px;
+  }
+}
+
+/* ===== VERY SMALL PHONES ===== */
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    font-size: 13px;
+  }
+
+  .btn-primary {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  .split-image img {
+    height: 200px;
+  }
+
+  .split-content h2 {
+    font-size: 18px;
+  }
+
+  .split-content p {
+    font-size: 12px;
+  }
+
+  .dishes-grid {
+    gap: 15px;
+  }
+
+  .dish-card img {
+    height: 180px;
+  }
+
+  .dish-content {
+    padding: 12px;
   }
 }
 
