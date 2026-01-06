@@ -299,70 +299,42 @@ body{
 /* MOBILE */
  /* ===== MOBILE HERO & SPLIT SECTIONS ===== */
 @media (max-width: 768px) {
-  /* HERO */
-  .hero h1 {
-    font-size: 28px;  /* smaller but readable */
-    letter-spacing: 1px;
-  }
 
-  .hero p {
-    font-size: 14px;
-  }
-
-  .btn-primary {
-    padding: 10px 20px;
-    font-size: 14px;
-  }
-
-  .hero-circles {
-    bottom: 10px;
-    gap: 8px;
-  }
-
-  /* SPLIT SECTIONS */
   .split-section {
-    flex-direction: column;
-    gap: 20px;
-    margin: 60px auto;
+    flex-direction: row;   /* جنب بعض */
+    align-items: center;
+    gap: 15px;
     padding: 20px;
   }
 
+  .split-image,
+  .split-content {
+    flex: 1;
+  }
+
   .split-image img {
-    width: 100%;
-    height: 250px; /* smaller height for phones */
-    border-radius: 14px;
+    height: 220px;
   }
 
   .split-content {
     padding: 20px;
-    max-width: 100%;
   }
 
   .split-content h2 {
-    font-size: 20px;
-    text-align: center;
+    font-size: 18px;
   }
 
   .split-content p {
-    font-size: 14px;
-    line-height: 1.6;
-  }
-
-  .split-section.dishes-background {
-    padding: 60px 20px;
-  }
-
-  .split-section.dishes-background h2 {
-    font-size: 20px;
-  }
-
-  .split-section.dishes-background p {
-    font-size: 14px;
+    font-size: 13px;
+    line-height: 1.5;
   }
 }
 
 /* ===== VERY SMALL PHONES ===== */
-@media (max-width: 480px) {
+@media (max-width: 480px) { 
+  .split-section {
+    flex-direction: column; /* هنا فقط يرجعوا تحت بعض */
+  }
   .hero h1 {
     font-size: 24px;
   }
