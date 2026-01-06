@@ -86,7 +86,7 @@
             height: 300px;
         }
         .location-images {
-        margin-right:30px;
+        margin-right:50px;
     }
     }
 </style>

@@ -316,7 +316,7 @@ body{
     object-fit: contain;   /* لا قص */
     height: auto;          /* الطول حسب الصورة */
     max-height: 220px;     /* تحكم ناعم */
-    background: #000;      /* اختياري – يمنع فراغ أبيض */
+  background: linear-gradient(135deg, #e91111d5, #3f3f3f); /* داكن أكثر */
   }
 
 
