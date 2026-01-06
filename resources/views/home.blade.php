@@ -201,7 +201,7 @@ body{
 }
 .split-image img{
   width:100%;
-  height:700px;
+  height:800px;
   object-fit:cover;
   border-radius:20px;
   opacity:0;
@@ -349,7 +349,7 @@ body{
   }
 
   .split-image img {
-    height: 250px;
+    height: 270px;
   }
 
   .split-content h2 {
