@@ -313,8 +313,12 @@ body{
   }
 
   .split-image img {
-    height: 220px;
+    object-fit: contain;   /* لا قص */
+    height: auto;          /* الطول حسب الصورة */
+    max-height: 220px;     /* تحكم ناعم */
+    background: #000;      /* اختياري – يمنع فراغ أبيض */
   }
+
 
   .split-content {
     padding: 20px;

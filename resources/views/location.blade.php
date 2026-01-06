@@ -85,6 +85,9 @@
             width: 100%;
             height: 300px;
         }
+        .location-images {
+        margin-right:30px;
+    }
     }
 </style>
 
